@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head>
+	<title>COMP2406 Recipe Viewer</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1>COMP2406 A2 Recipes</h1>
+<label for="ddlRecipes">Recipe:</label>
+<br>
+<select name="ddlRecipes" id="ddlRecipes">
+	<option value="">Select One</option>
+</select>
+<br>
+<button id="buttonview" onclick="viewRecipe();">View</button>
+<button id="buttonsubmit" onclick="editRecipe(); ">Submit</button>
+<hr>
+<div class="form">
+	<label for="txtDuration">Duration:</label>
+	<span id="errorDuration"></span>
+	<br>
+	<input type="text" name="txtDuration" id="txtDuration" value="">
+	<br>
+	<label for="txtIngredients">Ingredients:</label>
+	<span id="errorIngredients"></span>
+	<br>
+	<textarea name="txtIngredients" id="txtIngredients" cols="120" rows="10"></textarea>
+	<br>
+	<label for="txtSteps">Steps:</label>
+	<span id="errorSteps"></span>
+	<br>
+	<textarea name="txtSteps" id="txtSteps" cols="120" rows="10"></textarea>
+	<br>
+	<label for="txtNotes">Notes:</label>
+	<span id="errorNotes"></span>
+	<br>
+	<textarea name="txtNotes" id="txtNotes" cols="60" rows="5"></textarea>
+</div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
