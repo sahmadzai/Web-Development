@@ -1,10 +1,4 @@
-/**
- * Siraj Ahmadzai
- Student ID: 101040544
- Course: COMP 2406
- Assignment 3
- Date: 2016/11/13
- */
+
 
 //An asynchronous server that serves static files
 
