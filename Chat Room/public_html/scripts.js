@@ -1,10 +1,3 @@
-/**
- * Siraj Ahmadzai
- Student ID: 101040544
- Course: COMP 2406
- Assignment 4
- Date: 2016/11/21
- */
 
  /* ready event is fired when the document is fully loaded
  */
