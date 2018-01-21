@@ -1,0 +1,60 @@
+body{
+    background-color: #222222;
+}
+/*Top container*/
+#contents {
+    width: 1000px;
+    height: 200px;
+}
+
+/*Child of content*/
+#chatLogDiv {
+    float: left;
+    width: 785px;
+    height: 100%;
+}
+
+/*child of content*/
+#userListDiv {
+    float: right;
+    width: 185px;
+    height: 83%;
+    overflow: scroll;
+    margin: 10px 0;
+
+}
+
+/*Color and border styles only*/
+#inputText, #chatLog, #userListDiv {
+    border: solid 1px #558888;
+    background-color: #000000;
+    color: #fff;
+}
+
+/*shape styles only*/
+/*
+math: wanted width - average margin - total border
+*/
+#chatLog {
+    width: 783px;
+    height: 163px;
+    margin: 10px;
+}
+
+#userListDiv p, #userList{
+    width: 183px;
+    margin: 10px;
+
+}
+
+#inputText{
+    height: 18px;
+    width: 1000px;
+    margin: 0 10px;
+}
+
+#userList{
+    height:100%;
+    margin: 10px;
+
+}
