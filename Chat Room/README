@@ -1,2 +1,2 @@
-Don't forget to install the npm modules used:
+Don't forget to install the npm modules use:
 npm install socket.io
